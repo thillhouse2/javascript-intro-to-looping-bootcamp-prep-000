@@ -3,5 +3,6 @@ function forLoop(array){
     array[i] = `I am ${i + 1} strange loop${i === 0 ? '' : 's'}.`;
     console.log(array[i]);
     console.log(array.length)
+    return array
   }
 }
